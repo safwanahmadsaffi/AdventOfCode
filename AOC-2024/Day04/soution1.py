@@ -52,7 +52,6 @@ def main():
     
     # Read the grid from the file
     grid = read_input(input_file)
-
     # Find all occurrences of "XMAS" in the grid
     result = find_xmas_in_grid(grid)
 

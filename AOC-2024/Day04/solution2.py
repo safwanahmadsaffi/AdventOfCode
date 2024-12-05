@@ -31,7 +31,6 @@ file_path = "input.txt"
 # Read the grid from the file
 with open(file_path, "r") as file:
     grid = [line.strip() for line in file.readlines()]
-
 # Debug: Print the grid to confirm it is read correctly
 print("Grid Read from File:")
 print("\n".join(grid))
