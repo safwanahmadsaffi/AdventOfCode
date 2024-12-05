@@ -54,7 +54,6 @@ def main():
     grid = read_input(input_file)
     # Find all occurrences of "XMAS" in the grid
     result = find_xmas_in_grid(grid)
-
     # Output the result
     print(f"The word 'XMAS' appears {result} times.")
 
