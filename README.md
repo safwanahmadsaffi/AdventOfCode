@@ -28,6 +28,7 @@
 2. **Choose a Language**: Solve puzzles in the language of your choice—popular options include Python, JavaScript, Java, C++, and Rust.
 3. **Solve and Share**: Submit your answers to unlock stars, and share your unique solutions with others.
 
+
 ---
 
 ### **Tips for a Great AoC Experience**:
@@ -43,5 +44,9 @@
 
 I'll be participating in AoC this year and documenting my experiences, challenges, and learnings. Stay tuned for daily updates, code snippets, and reflections on how these puzzles expand my coding toolkit!
 
-You and Others can join it using the code ***4304019-b36a9787***
+You and Others can join it using the code ***4304019-b36a9787**
+      
+        4304019-b36a9787
+    
 Happy coding! 🎄💻
+
