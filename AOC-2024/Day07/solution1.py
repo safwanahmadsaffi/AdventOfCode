@@ -1,46 +1,45 @@
 from itertools import product
 
-# Load the input file
-input_file_path = 'D:\CODING\iCode\Advent of code\AOC-2024\Day07\input1.txt'
+# Define the input file path
+input_file_path = 'D:/CODING/iCode/Advent of code/AOC-2024/Day07/input1.txt'
 
-# Parse the input
-with open(input_file_path, 'r') as file:
-    lines = file.readlines()
+# Helper function to evaluate expressions left-to-right
+def evaluate_expression(numbers, operators):
+    result = numbers[0]
+    for i, op in enumerate(operators):
+        if op == "+":
+            result += numbers[i + 1]
+        elif op == "*":
+            result *= numbers[i + 1]
+    return result
 
-# Process each line into a target and numbers
-data = []
-for line in lines:
-    target, numbers = line.split(":")
-    target = int(target.strip())
-    numbers = list(map(int, numbers.split()))
-    data.append((target, numbers))
-
-# Function to evaluate all combinations of operators
-def evaluate_combinations(target, numbers):
-    if len(numbers) == 1:
-        return numbers[0] == target
+# Function to process the input and calculate the result
+def calculate_total_calibration(input_file_path):
+    # Read the entire file at once
+    with open(input_file_path, "r") as file:
+        lines = file.readlines()
     
-    # Possible operators: +, *
-    operators = ['+', '*']
-    for ops in product(operators, repeat=len(numbers) - 1):
-        result = numbers[0]
-        for i, op in enumerate(ops):
-            if op == '+':
-                result += numbers[i + 1]
-            elif op == '*':
-                result *= numbers[i + 1]
-            if result > target:  # Early termination if result exceeds target
-                break
-        if result == target:
-            return True
-    return False
+    total_calibration_result = 0
 
-# Evaluate each equation and calculate the total calibration result
-valid_targets = []
-for target, numbers in data:
-    if evaluate_combinations(target, numbers):
-        valid_targets.append(target)
+    # Process each line
+    for line in lines:
+        target_value, numbers_str = line.strip().split(":")
+        target_value = int(target_value)
+        numbers = list(map(int, numbers_str.split()))
+        
+        # Generate operator combinations and evaluate
+        num_ops = len(numbers) - 1
+        valid = any(
+            evaluate_expression(numbers, operators) == target_value
+            for operators in product(["+", "*"], repeat=num_ops)
+        )
+        
+        # Add to the total if valid
+        if valid:
+            total_calibration_result += target_value
+    
+    return total_calibration_result
 
-# Calculate the total calibration result
-total_calibration_result = sum(valid_targets)
-total_calibration_result
+# Calculate and print the result
+result = calculate_total_calibration(input_file_path)
+print(f"Total calibration result: {result}")
