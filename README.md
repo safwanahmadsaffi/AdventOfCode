@@ -44,9 +44,9 @@
 
 I'll be participating in AoC this year and documenting my experiences, challenges, and learnings. Stay tuned for daily updates, code snippets, and reflections on how these puzzles expand my coding toolkit!
 
-You and Others can join it using the code ***4304019-b36a9787**
+You and Others can join it using the code ***4304019-b36a9787***
       
-        4304019-b36a9787
+                                            4304019-b36a9787
     
 Happy coding! 🎄💻
 
