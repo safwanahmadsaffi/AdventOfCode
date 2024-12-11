@@ -49,3 +49,4 @@ You and Others can join it using the code ***4304019-b36a9787***
                                             4304019-b36a9787
     
 Happy coding! 🎄💻
+![AoC 2024 Leaderboard](https://github.com/safwaahmad/AdventOfCode/blob/main/AOC-2024/leaderboard-img-2024/doc.png?raw=true)
