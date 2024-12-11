@@ -25,3 +25,4 @@ initial_stones = [41078, 18, 7, 0, 4785508, 535256, 8154, 447]
 # Simulate 25 blinks
 result = simulate_blinks(initial_stones, 25)
 print(f"Number of stones after 25 blinks: {result}")
+
