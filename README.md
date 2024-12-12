@@ -44,8 +44,9 @@
 
 I'll be participating in AoC this year and documenting my experiences, challenges, and learnings. Stay tuned for daily updates, code snippets, and reflections on how these puzzles expand my coding toolkit!
 
-You and Others can join it using the code ***4304019-b36a9787***
+You and Others can join it using the code ***4304019-84eda14c***
       
                                             4304019-b36a9787
     
 Happy coding! 🎄💻
+![AoC 2024 Leaderboard](https://github.com/safwaahmad/AdventOfCode/blob/main/AOC-2024/leaderboard-img-2024/doc.png?raw=true)
