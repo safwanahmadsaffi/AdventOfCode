@@ -10,7 +10,6 @@ from rich import print
 def pr(s):
     print(s)
     pc.copy(s)
-
 sys.setrecursionlimit(10**6)
 DIRS = [(-1,0),(0,1),(1,0),(0,-1)] # up right down left
 
