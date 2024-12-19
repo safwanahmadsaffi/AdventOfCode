@@ -1,5 +1,4 @@
 ### README: Advent of Code 🎄✨
-
 **Advent of Code** (AoC) is an annual programming challenge series created by [Eric Wastl](https://adventofcode.com). It runs from **December 1st to December 25th** and features daily puzzles that test problem-solving and algorithmic skills. Each puzzle unfolds part of a fun, holiday-themed story while offering programmers of all skill levels a chance to learn, practice, and compete.
 
 ---
