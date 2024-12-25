@@ -41,11 +41,11 @@
 
 ### **Follow My Journey**:
 
-I'll be participating in AoC this year and documenting my experiences, challenges, and learnings. Stay tuned for daily updates, code snippets, and reflections on how these puzzles expand my coding toolkit!
+I'll be participating in AoC this year and documenting my experiences, challenges, and learnings. Stay tuned for daily updates, code snippets, and reflections on how these puzzles expand my coding toolkit! <br>
+Happy coding! 🎄💻
 
 You and Others can join it using the code ***4304019-84eda14c***
       
-                                            4304019-b36a9787
+                                            4304019-84eda14c
     
-Happy coding! 🎄💻
-![AoC 2024 Leaderboard](https://github.com/safwaahmad/AdventOfCode/blob/main/AOC-2024/leaderboard-img-2024/doc.png?raw=true)
+![AoC 2024 Leaderboard](https://github.com/safwanahmadsaffi/AdventOfCode/blob/main/AOC-2024/leaderboard-img-2024/doc.png)
